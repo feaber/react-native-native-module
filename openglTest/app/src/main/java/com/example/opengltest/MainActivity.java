@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-    private MySurfaceView sv;
+    private MySurfaceView glView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        sv = new MySurfaceView(this);
-        setContentView(sv);
+        glView = new MySurfaceView(this);
+        setContentView(glView);
     }
 }
