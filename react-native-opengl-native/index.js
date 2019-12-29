@@ -1,5 +1,10 @@
-import { NativeModules } from 'react-native';
+import { requireNativeComponent } from 'react-native';
 
-const { OpenglNative } = NativeModules;
+/**
+ * Composes `View`.
+ *
+ * - text: string
+ */
+const MyGLBox = requireNativeComponent('MyGLBox');
 
-export default OpenglNative;
+module.exports = MyGLBox;

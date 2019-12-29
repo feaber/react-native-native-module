@@ -34,7 +34,7 @@ target 'openglText' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-opengl-native', :path => '../node_modules/react-native-opengl-native'
+
 
   target 'openglTextTests' do
     inherit! :search_paths
