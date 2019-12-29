@@ -1,6 +1,6 @@
 {
   "name": "openglText",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -9,10 +9,14 @@
     "test": "jest",
     "lint": "eslint ."
   },
+  "author": {
+    "name": "Konrad Szczerba",
+    "email": "konrad.szczerba@articode.pl"
+  },
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-opengl-native": "1.0.7"
+    "react-native-opengl-native": "1.0.8"
   },
   "devDependencies": {
     "@babel/core": "7.7.7",

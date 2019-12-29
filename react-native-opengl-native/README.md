@@ -1,17 +1,21 @@
 # react-native-opengl-native
 
-## Getting started
+This is android native ui component written in Java.\
+It expose `MyGLBox` component for react native.
 
-`$ npm install react-native-opengl-native --save`
+Basic usage:
 
-### Mostly automatic installation
+```text
+import MyGLBox from 'react-native-opengl-native';
 
-`$ react-native link react-native-opengl-native`
+...
 
-## Usage
-```javascript
-import OpenglNative from 'react-native-opengl-native';
+<View style={{ flex: 1, width: '100%', height: '100%', overflow: 'hidden' }}>
+  <MyGLBox
+    style={{ flex: 1, width: '100%', height: '100%' }}
+    text="Hello world!!"}
+  />
+</View>
 
-// TODO: What to do with the module?
-OpenglNative;
+...
 ```
