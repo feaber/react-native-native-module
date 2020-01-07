@@ -1,8 +1,8 @@
 # React native - native module tests
 
-This repository contains three projects which demonstrate how to prepare, react native application with native component. The component uses OpenGL ES 2.0 to render a square with texture. The texture is generated from virtual bitmap that contain text that comes from component props.
+This repository contains three projects which demonstrate how to prepare, react native application with native component. The component uses OpenGL ES 2.0 to render a rectangle with texture. The texture is generated from virtual bitmap that contain text that comes from component props.
 
-The bitmap size is related with OpenGL square proportions and text font size and text length - so the final output always looks nice and text is centered on it.
+The bitmap size is related with OpenGL rectangle proportions and text font size and text length - so the final output always looks nice and text is centered on it.
 
 The projects was developed on Windows 10 machine, and was designed to work on Android devices.
 Each project is described in details below.
